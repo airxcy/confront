@@ -1,0 +1,70 @@
+﻿C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(388,5): warning MSB8028: The intermediate directory (x64\Release\) contains files shared from another project (group.vcxproj, kltgpu.vcxproj).  This can lead to incorrect clean and rebuild behavior.
+  Uic'ing kltgpu.ui...
+  Moc'ing viewqt.h...
+  Moc'ing streamthread.h...
+  Moc'ing mainwindow.h...
+  Rcc'ing kltgpu.qrc...
+RCC : warning : No resources in 'C:\Users\xcy\Documents\CVProject\confront\kltgpu.qrc'.
+  
+  Compiling CUDA source file src\trackers\klttracker.cu...
+  
+  C:\Users\xcy\Documents\CVProject\confront>"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v7.0\bin\nvcc.exe" -gencode=arch=compute_20,code=\"sm_20,compute_20\" --use-local-env --cl-version 2013 -ccbin "C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64"  -I.\GeneratedFiles -I. -IC:\Qt\5.4\msvc2013_64_opengl\include -I.\GeneratedFiles\Release -IC:\Qt\5.4\msvc2013_64_opengl\include\QtCore -IC:\Qt\5.4\msvc2013_64_opengl\include\QtGui -IC:\Qt\5.4\msvc2013_64_opengl\include\QtOpenGL -IC:\Qt\5.4\msvc2013_64_opengl\include\QtWidgets -Iincludes -IC:\opencv\build\include -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v7.0\include" -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v7.0\include"     --keep-dir x64\Release -maxrregcount=0  --machine 64 --compile -cudart static     -DUNICODE -DWIN32 -DWIN64 -DQT_DLL -DQT_NO_DEBUG -DNDEBUG -DQT_CORE_LIB -DQT_GUI_LIB -DQT_OPENGL_LIB -DQT_WIDGETS_LIB -Xcompiler "/EHsc /W1 /nologo /O2 /Zi  /MD  " -o x64\Release\klttracker.cu.obj "C:\Users\xcy\Documents\CVProject\confront\src\trackers\klttracker.cu" 
+C:\opencv\build\include\opencv2/ml/ml.hpp(955): warning : overloaded virtual function "CvDTree::train" is only partially overridden in class "CvForestTree"
+C:\opencv\build\include\opencv2/ml/ml.hpp(1143): warning : overloaded virtual function "CvDTree::train" is only partially overridden in class "CvBoostTree"
+C:/Users/xcy/Documents/CVProject/confront/src/trackers/klttracker.cu(90): warning : variable "h" was declared but never referenced
+C:/Users/xcy/Documents/CVProject/confront/src/trackers/klttracker.cu(93): warning : variable "r" was declared but never referenced
+C:/Users/xcy/Documents/CVProject/confront/src/trackers/klttracker.cu(93): warning : variable "g" was declared but never referenced
+C:/Users/xcy/Documents/CVProject/confront/src/trackers/klttracker.cu(93): warning : variable "b" was declared but never referenced
+C:/Users/xcy/Documents/CVProject/confront/src/trackers/klttracker.cu(316): warning : variable "maxdist" was declared but never referenced
+C:/Users/xcy/Documents/CVProject/confront/src/trackers/klttracker.cu(316): warning : variable "dtmp" was declared but never referenced
+C:/Users/xcy/Documents/CVProject/confront/src/trackers/klttracker.cu(316): warning : variable "totlen" was declared but never referenced
+C:/Users/xcy/Documents/CVProject/confront/src/trackers/klttracker.cu(318): warning : variable "bptr" was declared but never referenced
+C:/Users/xcy/Documents/CVProject/confront/src/trackers/klttracker.cu(313): warning : variable "minlen" was declared but never referenced
+C:\opencv\build\include\opencv2/ml/ml.hpp(955): warning : overloaded virtual function "CvDTree::train" is only partially overridden in class "CvForestTree"
+C:\opencv\build\include\opencv2/ml/ml.hpp(1143): warning : overloaded virtual function "CvDTree::train" is only partially overridden in class "CvBoostTree"
+C:/Users/xcy/Documents/CVProject/confront/src/trackers/klttracker.cu(90): warning : variable "h" was declared but never referenced
+C:/Users/xcy/Documents/CVProject/confront/src/trackers/klttracker.cu(93): warning : variable "r" was declared but never referenced
+C:/Users/xcy/Documents/CVProject/confront/src/trackers/klttracker.cu(93): warning : variable "g" was declared but never referenced
+C:/Users/xcy/Documents/CVProject/confront/src/trackers/klttracker.cu(93): warning : variable "b" was declared but never referenced
+C:/Users/xcy/Documents/CVProject/confront/src/trackers/klttracker.cu(252): warning : a __device__ variable "d_kernel" cannot be directly read in a host function
+C:/Users/xcy/Documents/CVProject/confront/src/trackers/klttracker.cu(256): warning : a __device__ variable "d_confmap" cannot be directly read in a host function
+C:/Users/xcy/Documents/CVProject/confront/src/trackers/klttracker.cu(316): warning : variable "maxdist" was declared but never referenced
+C:/Users/xcy/Documents/CVProject/confront/src/trackers/klttracker.cu(316): warning : variable "dtmp" was declared but never referenced
+C:/Users/xcy/Documents/CVProject/confront/src/trackers/klttracker.cu(316): warning : variable "totlen" was declared but never referenced
+C:/Users/xcy/Documents/CVProject/confront/src/trackers/klttracker.cu(318): warning : variable "bptr" was declared but never referenced
+C:/Users/xcy/Documents/CVProject/confront/src/trackers/klttracker.cu(313): warning : variable "minlen" was declared but never referenced
+C:/Users/xcy/Documents/CVProject/confront/src/trackers/klttracker.cu(368): warning : a __device__ variable "d_curvec" cannot be directly read in a host function
+C:/Users/xcy/Documents/CVProject/confront/src/trackers/klttracker.cu(372): warning : a __device__ variable "d_isnewmat" cannot be directly read in a host function
+C:/Users/xcy/Documents/CVProject/confront/src/trackers/klttracker.cu(373): warning : a __device__ variable "d_isnewmat" cannot be directly read in a host function
+C:/Users/xcy/Documents/CVProject/confront/src/trackers/klttracker.cu(373): warning : a __device__ variable "d_curvec" cannot be directly read in a host function
+C:/Users/xcy/Documents/CVProject/confront/src/trackers/klttracker.cu(374): warning : a __device__ variable "d_isnewmat" cannot be directly read in a host function
+C:/Users/xcy/Documents/CVProject/confront/src/trackers/klttracker.cu(453): warning : a __device__ variable "d_ofvec" cannot be directly read in a host function
+C:/Users/xcy/Documents/CVProject/confront/src/trackers/klttracker.cu(454): warning : a __device__ variable "d_ofvec" cannot be directly read in a host function
+C:/Users/xcy/Documents/CVProject/confront/src/trackers/klttracker.cu(455): warning : a __device__ variable "d_neighbor" cannot be directly read in a host function
+C:/Users/xcy/Documents/CVProject/confront/src/trackers/klttracker.cu(456): warning : a __device__ variable "d_neighbor" cannot be directly read in a host function
+C:/Users/xcy/Documents/CVProject/confront/src/trackers/klttracker.cu(456): warning : a __device__ variable "d_ofvec" cannot be directly read in a host function
+C:/Users/xcy/Documents/CVProject/confront/src/trackers/klttracker.cu(456): warning : a __device__ variable "d_covec" cannot be directly read in a host function
+C:/Users/xcy/Documents/CVProject/confront/src/trackers/klttracker.cu(457): warning : a __device__ variable "d_neighbor" cannot be directly read in a host function
+C:/Users/xcy/Documents/CVProject/confront/src/trackers/klttracker.cu(460): warning : a __device__ variable "d_confmap" cannot be directly read in a host function
+C:/Users/xcy/Documents/CVProject/confront/src/trackers/klttracker.cu(461): warning : a __device__ variable "d_covec" cannot be directly read in a host function
+C:/Users/xcy/Documents/CVProject/confront/src/trackers/klttracker.cu(461): warning : a __device__ variable "d_kernel" cannot be directly read in a host function
+C:/Users/xcy/Documents/CVProject/confront/src/trackers/klttracker.cu(461): warning : a __device__ variable "d_confmap" cannot be directly read in a host function
+C:/Users/xcy/Documents/CVProject/confront/src/trackers/klttracker.cu(466): warning : a __device__ variable "d_confmap" cannot be directly read in a host function
+C:/Users/xcy/Documents/CVProject/confront/src/trackers/klttracker.cu(493): warning : a __device__ variable "d_rgbmap" cannot be directly read in a host function
+C:/Users/xcy/Documents/CVProject/confront/src/trackers/klttracker.cu(494): warning : a __device__ variable "d_rgbmap" cannot be directly read in a host function
+C:/Users/xcy/Documents/CVProject/confront/src/trackers/klttracker.cu(494): warning : a __device__ variable "d_confmap" cannot be directly read in a host function
+C:/Users/xcy/Documents/CVProject/confront/src/trackers/klttracker.cu(495): warning : a __device__ variable "d_rgbmap" cannot be directly read in a host function
+  klttracker.cu
+  qrc_kltgpu.cpp
+  moc_mainwindow.cpp
+  moc_streamthread.cpp
+  moc_viewqt.cpp
+  main.cpp
+  mainwindow.cpp
+  modelsqt.cpp
+  streamthread.cpp
+  viewqt.cpp
+  buffers.cpp
+  utils.cpp
+  Generating Code...
+  kltgpu.vcxproj -> C:\Users\xcy\Documents\CVProject\confront\x64\Release\confront.exe
